@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   display: grid;
   place-content: center;
+  background-color: #f3eae3;
 }
 .container {
   display: flex;
@@ -15,7 +16,7 @@ body {
   position: relative;
   border-radius: 1rem;
   outline: 1 solid #fff;
-  background-color: aqua;
+  background-color: white;
 }
 .card {
   background-image: url(../images/image-product-desktop.jpg);
@@ -24,4 +25,14 @@ body {
   background-size: contain;
   height: 450px;
   border-radius: 1rem;
+}
+.price {
+  display: block;
+}
+.price button {
+  background-color: #3d8168;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: 180px;
 }
